@@ -971,90 +971,8 @@ body{
 }
 
 
-@media (max-width:320px ) {
-
-	body{
-		max-width: 320px;
-		}
-
-	.container {
-			margin: 0px 10px;
-	}
-	
-
-	.not-only {
-		width: 100%;
-			&__row {
-				padding: 150px 0px 0px 0px;
-				display: flex;
-				justify-content: space-between;
-				
-			}
-	
-			&__item {
-				margin: 0px 0px 105px 0px;
-				h1{
-					font-family: Georgia;
-					font-size: 25px;
-					line-height: 32px;
-					letter-spacing: 0.06em;
-					text-align: center;
-					max-width: 200px;
-					color: #FFFFFF;
-					margin: 0px auto;
-
-				}
-			}
-	
-			&__text {
-				max-width: 300px;
-				margin: 42px 0px 42px 0px;
-				text-align: center;
-			}
-	
-			&__button {
-				margin: 0px auto;
-			}
-	
-			&__img {
-				max-width:260px;
-				max-height: 271px;
-			}
-	}
-
-	.about {
-		&__row {
-		padding: 42px 0px ;
-		
-	}
-
-		&__img {
-			margin: 0px auto;
-			max-width: 260px;
-			max-height: 362px;
-		}
-
-		&__text {
-		margin: 0px 0px 42px 0px;
-		max-width: 430px;
-		h2{
-			padding: 0px 0px;
-			margin: 0px auto;
-			max-width: 280px;
-			font-size: 25px;
-			line-height: 32px;
-			text-align: center;
-		}
-		p{
-			margin: 25px auto 0px auto;
-			max-width: 270px;
-			text-align: justify;
-		}
-
-		}
-	}
-
-	.our-friend {
+@media (max-width:500px ) {
+		.our-friend {
 	padding: 0px 0px 42px 0px;
 	
 	&__heading {
@@ -1077,7 +995,7 @@ body{
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-areas: "item item" 
 												"arrow-left arrow-right" ;
-		justify-content: center;
+	
 
 	}
 
@@ -1094,7 +1012,7 @@ body{
 
 	&__row {
 		grid-area: item;
-		margin: 0px 12px 20px 12px;
+		margin: 0px auto 20px auto;
 		max-width: 270px;
 	}
 
@@ -1149,6 +1067,95 @@ body{
 		}
 		
 	}
+}
+
+
+@media (max-width:320px ) {
+
+	body{
+		max-width: 450px;
+		}
+
+	.container {
+			margin: 0px 10px;
+	}
+	
+
+	.not-only {
+		width: 100%;
+			&__row {
+				padding: 150px 0px 0px 0px;
+				display: flex;
+				justify-content: space-between;
+				
+			}
+	
+			&__item {
+				margin: 0px 0px 105px 0px;
+				h1{
+					font-family: Georgia;
+					font-size: 25px;
+					line-height: 32px;
+					letter-spacing: 0.06em;
+					text-align: center;
+					max-width: 200px;
+					color: #FFFFFF;
+					margin: 0px auto;
+
+				}
+			}
+	
+			&__text {
+				max-width: 300px;
+				margin: 42px auto;
+				text-align: center;
+			}
+	
+			&__button {
+				margin: 0px auto;
+			}
+	
+			&__img {
+				max-width:260px;
+				max-height: 271px;
+			}
+	}
+
+	.about {
+		&__row {
+		padding: 42px 0px ;
+		
+	}
+
+		&__img {
+			margin: 0px auto;
+			max-width: 260px;
+			max-height: 362px;
+		}
+
+		&__text {
+		margin: 0px 0px 42px 0px;
+		max-width: 430px;
+		h2{
+			padding: 0px 0px;
+			margin: 0px auto;
+			max-width: 280px;
+			font-size: 25px;
+			line-height: 32px;
+			text-align: center;
+		}
+		p{
+			margin: 25px auto 0px auto;
+			max-width: 270px;
+			text-align: justify;
+		}
+
+		}
+	}
+
+
+
+
 
 	.in-addition {
 
